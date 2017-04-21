@@ -1,2 +1,5 @@
 language: c
-script: make all
+script: make all & make test
+install: make dep
+compiler: gcc
+sudo: required
